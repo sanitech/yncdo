@@ -1,3 +1,5 @@
+const pool= require('pool
+
 const getUSer = (req, res) => {
   res.status(200).send({ message: "all users" });
 };
